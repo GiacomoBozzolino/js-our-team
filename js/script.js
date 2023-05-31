@@ -1,3 +1,4 @@
+// creo l'array di oggetti
 let info = [ 
 
     {
@@ -42,7 +43,22 @@ let info = [
 
 
     },
-]
+];
 
-console.log(info)
+console.log(info);
+
+
+// creo cliclo for per passare in rassegna i vari oggetti nell'array
+for (let i = 0; i<info.length; i++) {
+    let infoLog = info[i];
+
+
+    // stampo il nome
+    console.log(infoLog.name);
+    // stampo il ruolo 
+    console.log(infoLog.role);
+    // stampo la stringa dell'img
+    console.log(infoLog.image);
+
+};
 
