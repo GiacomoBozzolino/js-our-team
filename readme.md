@@ -2,6 +2,8 @@ Problema: Utilizzando i dati forniti, creare un array di oggetti per rappresenta
 MILESTONE 0:
 Creare l’array di oggetti con le informazioni fornite (file informazioni team).
 MILESTONE 1: Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+MILESTONE 2:
+Stampare le stesse informazioni su DOM sottoforma di stringhe
 
 
 1- Creo un array in cui inserire degli object
@@ -12,3 +14,5 @@ MILESTONE 1: Stampare su console, per ogni membro del team, le informazioni di n
 3- creo un ciclo for per passare in rassegna gli elementi dell'array
     3.1 Creo una variabile che associo ad array[i] per rendere più leggibile il codice
     3.2 Utilizzo un console.log dove recupero la variabile e aggiungo .chiave della prorità
+4- all'interno del ciclo for creo una variabile per la stampa su dom delle info
+5-  utilizzo .innerHTML per stampare il risulto nel dom
